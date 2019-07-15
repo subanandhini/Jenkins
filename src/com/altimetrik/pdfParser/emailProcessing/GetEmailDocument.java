@@ -34,6 +34,7 @@ import com.altimetrik.pdfParser.reader.TextReaderClass;
 public class GetEmailDocument {
 
 public static String name;
+public static String clas;
 	public static void receiveEmail(String pop3Host, String mailStoreType, String userName, String password) {
 		// Set properties
 		Properties props = new Properties();
