@@ -37,6 +37,7 @@ public static String name;
 	public static void receiveEmail(String pop3Host, String mailStoreType, String userName, String password) {
 		// Set properties
 		Properties props = new Properties();
+		System.out.println("fjkdjeoe");
 		props.put("mail.store.protocol", "pop3");
 		props.put("mail.pop3.host", pop3Host);
 		props.put("mail.pop3.port", "995");
