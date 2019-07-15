@@ -9,9 +9,11 @@ import java.sql.Statement;
 import java.util.Properties;
 import java.util.Scanner;
 
+import org.testng.annotations.Test;
+
 import com.altimetrik.pdfParser.emailProcessing.MailSenderClass;
 import com.altimetrik.pdfParser.reader.TextReaderClass;
-
+@Test
 public class JdbcClass {
 	static Connection conn = null;
 

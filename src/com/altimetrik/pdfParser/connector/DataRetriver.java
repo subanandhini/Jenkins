@@ -1,7 +1,10 @@
 package com.altimetrik.pdfParser.connector;
 import java.util.Scanner;
 
+import org.testng.annotations.Test;
+
 public class DataRetriver {
+@Test
 public static void Retrieve() throws Exception {
 	
 	System.out.println("Enter the invoice number ...");
